@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bree+Serif&family=Poppins:wght@300&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bree+Serif&family=Lacquer&family=Poppins:wght@300&family=Roboto+Mono&display=swap');
+
+
+h1{
+    text-align: center;
+    margin: 12px;
+}
+
+.container{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container h1{
+    font-family: 'Lacquer', 'Roboto Mono', monospace;
+    font-size: 34px;
+}
+
+.myForm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    font-size: 16px;
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    border: 2px solid rgb(152, 63, 63);
+    border-radius: 12px;
+    outline: none;
+
+}
+
+.btn{
+    padding: 12px 16px;
+    font-size: 18px;
+    border: 2px solid red;
+    border-radius: 12px;
+    margin: 8px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    margin: 23px;
+}

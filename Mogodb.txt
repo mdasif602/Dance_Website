@@ -1,0 +1,11 @@
+No sql database
+Written in c++
+Salient features:
+   Develop faster
+   deploy easier
+   scale bigger
+Started in 2007
+
+
+When you run mongo with no parameters it defaults to connecting to the localhost 
+on port 27017
