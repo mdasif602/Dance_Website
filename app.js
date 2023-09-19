@@ -49,7 +49,7 @@ app.get('/contact', (req, res)=>{
 app.post('/contact', (req, res)=>{
     var myData = new Contact(req.body);
     myData.save().then(()=>{
-        res.send("This item has been saved to the database. Click on link to go back to website localhost:8000")
+        res.send("This item has been saved to the database. Go back and explore the website")
     }).catch(()=>{
         res.status(400).send("Item was not saved to the database")
     })
