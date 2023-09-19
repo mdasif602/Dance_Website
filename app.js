@@ -5,9 +5,9 @@ const mongoose = require('mongoose');
 const bodyparser = require("body-parser");
 main().catch(err => console.log(err));
 async function main() {
-  await mongoose.connect('mongodb://localhost/contactDance');
+  await mongoose.connect('mongodb+srv://mdasifhussain268:xRkaozc2Ax4N0wbp@cluster0.u0p3uy6.mongodb.net/?retryWrites=true&w=majority');
 }
-const port = 8000;
+const port = process.env.PORT || 8080;
 
 //Define mongoose schema
 const contactSchema = new mongoose.Schema({
